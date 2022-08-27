@@ -2,7 +2,7 @@ html {
     background: url(../images/bg-desktop.svg) center center no-repeat;
     background-size: cover;
     background-color: hsl(257, 40%, 49%);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .header {
@@ -17,6 +17,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1440px;
 }
 
 .container .image {
@@ -45,7 +46,7 @@ html {
     padding: 15px 65px;
     border-radius: 30px;
     margin-left: 50px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transition: 0.3s;
 }
 
