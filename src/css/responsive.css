@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     html {
         background: url(../images/bg-mobile.svg) center center no-repeat;
         background-size: cover;
@@ -36,6 +36,12 @@
 
     .socials a {
         margin: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container .image {
+        max-width: 500px;
     }
 }
 
